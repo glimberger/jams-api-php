@@ -1,4 +1,4 @@
-jams-back
-=========
+Jams back server - PHP version
+==============================
 
-A Symfony project created on October 3, 2017, 5:25 pm.
+[![Build Status](https://travis-ci.org/glimberger/jams-back-php.svg?branch=master)](https://travis-ci.org/glimberger/jams-back-php)

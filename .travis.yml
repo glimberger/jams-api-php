@@ -1,0 +1,12 @@
+php:
+    - '7.1'
+
+before_script:
+    - composer install
+
+script:
+    - phpunit
+
+notifications:
+    email:
+        -  glim.dev@gmail.com
