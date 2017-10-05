@@ -4,11 +4,15 @@ php:
     - 7.1
 
 before_script:
-    - composer install
+    - composer update --prefer-dist
 
 script:
     - phpunit --coverage-text
 
+cache:
+    directories:
+        - $HOME/.composer/cache
+
 notifications:
     email:
-        -  glim.dev@gmail.com
+        - glim.dev@gmail.com
